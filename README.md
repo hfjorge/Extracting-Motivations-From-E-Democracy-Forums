@@ -13,9 +13,8 @@ This project is a pipeline for extracting arguments and their underlying motivat
 - **Context-Aware Summarization:** Generates summaries of motivations within each Max-Neef category.
 - **Automated Evaluation:** Includes a component to evaluate the quality of the argument extraction and categorization using an LLM.
 - 
-<p align="center">
-    ![general_flowchart](out//flowchart//flowchart.svg)
-</p>
+                                                                                                        ![general_flowchart](out//flowchart//flowchart.svg)
+
 
 ## Technologies Used
 
