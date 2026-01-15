@@ -1,0 +1,36 @@
+@startuml
+title Flowchart - Extraction of Arguments and Motivations
+
+
+
+:**Building the Comment Tree**
+• Instantiate RedditThreadScraper  
+• Execute build_comment_tree(url)  
+• Generate hierarchical structure of the discussion;
+
+:**Defining Prompts for LLM**
+• Define system_prompt with JSON rules  
+• Define human_prompt with thread text  
+• Compose chat_prompt with both;
+
+:**Creating Summarized Context**
+• get_parent_posts(post_id)  
+• get_post_text(post_id)  
+• get_context();
+
+:**Extracting Arguments and Motivations**
+• Send chat_prompt to LLM  
+• Receive JSON with arguments and motivations;
+
+:**Conversion to Graph Structure**
+• json_to_graph_document()  
+• Create Argument and Motivation nodes  
+• Create SUPPORTS relationships;
+
+:**Upload to Graph Database**
+• upload_post()  
+• Create Post and DiscussionTopic nodes  
+• Link with RESPONDS_TO and DISCUSSES;
+
+
+@enduml
