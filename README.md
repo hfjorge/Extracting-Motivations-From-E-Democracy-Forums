@@ -2,7 +2,7 @@
 
 This project is a pipeline for extracting arguments and their underlying motivations from online discussions, specifically from Reddit threads. It uses a combination of web scraping, Large Language Models (LLMs), and graph database technologies to analyze the content of the discussions and represent the relationships between different arguments and motivations.
 
-![pipeline](out\\pipeline\\pipeline.svg)
+![pipeline](out\pipeline\pipeline.svg)
 
 ## Features
 
@@ -13,7 +13,7 @@ This project is a pipeline for extracting arguments and their underlying motivat
 - **Context-Aware Summarization:** Generates summaries of motivations within each Max-Neef category.
 - **Automated Evaluation:** Includes a component to evaluate the quality of the argument extraction and categorization using an LLM.
 
-![general_flowchart](out\\flowchart\\flowchart.svg)
+![general_flowchart](out\flowchart\flowchart.svg)
 
 ## Technologies Used
 
